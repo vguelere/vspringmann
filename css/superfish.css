@@ -3,7 +3,7 @@
 	z-index: 999;
 	position: relative;
 	float: right;
-	padding-top: 28px;
+	padding-top: 18px;
 }
 
 
@@ -34,7 +34,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 .sf-menu>li>a{
 	position: relative;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
 	line-height: 20px;
@@ -209,7 +209,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 		float: none !important;
 		padding: 22px 0px 25px !important;
 		clear: both;
-		margin-top: 18px;
+		margin-top: 15px;
 		min-height: 0px;
 
 	}

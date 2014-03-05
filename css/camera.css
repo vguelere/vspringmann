@@ -1,5 +1,3 @@
-
-
  /**************************
 *
 *	GENERAL
@@ -9,7 +7,7 @@
 
 
 .slider_wrapper {
-	margin-top: -15px;
+	margin-top: 20px;
 	border-bottom: 0;
 	z-index: 999;
 	position: relative;

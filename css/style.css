@@ -23,7 +23,7 @@ body {
 	color: #006600;
 	position: relative;
 	min-width: 960px;
-	background: #171614;
+	background: #FFF;
 }
 
 address {
@@ -246,13 +246,13 @@ a.link1:hover {
 /*header*/
 
 .page1 header {
-	padding-bottom: 62px;
+	
 }
 
 header {
 	display: block;
-	background: #171614;
-	padding: 60px 0 47px;
+	background: #2f2d2a;
+	padding: 20px 0 10px;
 }
 
 header h1 {
@@ -280,7 +280,7 @@ header h1 a img {
 
 
 .content {
-	background-color: #171614;
+	background-color: #fff;
 	padding-bottom: 69px;
 }
 
@@ -379,7 +379,7 @@ a.prev:hover {
 }
 
 .boxes {
-	margin-left: 30px;
+	margin-left: 25px;
 	background-color: black;
 	float: left;
 	width: 207px;
