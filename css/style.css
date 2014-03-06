@@ -716,10 +716,10 @@ transition: 0s ease;
 }
 
 a.top {
-	top: -31px;
+	top: -30px;
 	background: url(../images/totop.png) 0 0 no-repeat;
 	width: 71px;
-	left: 50%;
+	left: 477px;
 	margin-left: -35px;
 	height: 37px;
 	position: absolute;
