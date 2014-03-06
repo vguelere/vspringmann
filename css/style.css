@@ -20,7 +20,7 @@ a[href^="tel:"] {
 }
 body {
 	font: 14px/20px Arial, Helvetica, sans-serif;
-	color: #006600;
+	color: #000000;
 	position: relative;
 	min-width: 960px;
 	background: #FFF;
