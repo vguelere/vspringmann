@@ -20,10 +20,15 @@ a[href^="tel:"] {
 }
 body {
 	font: 14px/20px Arial, Helvetica, sans-serif;
-	color: #000000;
 	position: relative;
 	min-width: 960px;
 	background: #FFF;
+}
+
+.shadow {
+  -moz-box-shadow:    4px 2px 5px 1px #666;
+  -webkit-box-shadow: 4px 2px 5px 1px #666;
+  box-shadow:         4px 2px 5px 1px #666;
 }
 
 address {
@@ -87,6 +92,13 @@ ul {
 ul.list {
 }
 
+li{
+	font-size: 18px;
+	margin-left: 10px;
+	line-height: 22px;
+	font-family: 'Raleway', sans-serif;
+	}
+
 /****Links****/
 
 
@@ -101,7 +113,7 @@ a {
 }
 
 a:hover {
-	color: #5db694;
+	color: #CC9900;
 }
 
 a.btn {
@@ -120,10 +132,17 @@ a.btn:hover {
 	background-color: #5db694;
 }
 
+
 a.link1 {
 	color: #474747;
 	font: bold 13px/22px 'Raleway', sans-serif;
 	text-transform: uppercase;
+	display: inline-block;
+}
+
+.f_font{
+	color: #FFF;
+	font: bold 15px/22px 'Raleway', sans-serif;
 	display: inline-block;
 }
 
@@ -385,6 +404,26 @@ a.prev:hover {
 	width: 207px;
 	color: #000; 
 	height: 150px;
+	text-align: center;
+	margin-top:30px;
+	}
+	
+.thumb {
+	background-color: black;
+	float:left;
+	width: 25px;
+	height: 25px; 
+	margin-right: 5px;
+	}
+
+
+.perfil {
+	margin-left: 25px;
+	background-color: black;
+	float: left;
+	width: 936px;
+	color: #000; 
+	height: 398px;
 	text-align: center;
 	margin-top:30px;
 	}
