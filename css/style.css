@@ -6,24 +6,32 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 /* Open Sans', sans-serif */
 
-
+@import url(//fonts.googleapis.com/css?family=Kreon:300);
+@import url(//fonts.googleapis.com/css?family=Kreon:400);
+@import url(//fonts.googleapis.com/css?family=Kreon:700);
 
 html {
 	width: 100%;
 }
 a[href^="tel:"] {
- color: inherit;
+ color: inherit;li
  text-decoration: none;
 }
 * {
 	-webkit-text-size-adjust: none;
 }
 body {
-	font: 14px/20px Arial, Helvetica, sans-serif;
+	font: 14px/20px Verdana, Geneva, sans-serif;
 	position: relative;
 	min-width: 960px;
 	background: #FFF;
 }
+
+hr 
+{
+	border-width: 0 0 1px 0;
+	border: 1px dotted #999;
+	}
 
 address {
 	font-style: normal;
@@ -90,7 +98,7 @@ li{
 	font-size: 18px;
 	margin-left: 10px;
 	line-height: 22px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	}
 
 /****Links****/
@@ -107,7 +115,7 @@ a {
 }
 
 a:hover {
-	color: #CC9900;
+	color: #E95492;
 }
 
 a.btn {
@@ -136,7 +144,7 @@ a.link1 {
 
 .f_font{
 	color: #FFF;
-	font: bold 15px/22px 'Raleway', sans-serif;
+	font: bold 15px/22px 'Georgia', sans-serif;
 	display: inline-block;
 }
 
@@ -200,9 +208,7 @@ a.link1:hover {
 .alright {
 	text-align: right;
 }
-.center {
-	text-align: center;
-}
+
 .wrapper, .extra_wrapper {
 	overflow: hidden;
 }
@@ -264,7 +270,7 @@ a.link1:hover {
 
 header {
 	display: block;
-	background: #2f2d2a;
+	background: #fff;
 	padding: 20px 0 10px;
 }
 
@@ -305,17 +311,10 @@ header h1 a img {
 	color: #5db694;
 }
 
-.slogan {
-	font: 12px/23px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	color: #909090;
-}
 
 .title {
-	text-transform: uppercase;
-	font: 20px/20px 'Raleway', sans-serif;
-	color: #403f3f;
-	padding-top: 10px;
+	font-size: 14px;
+	color: #999;
 }
 
 #carousel1 {
@@ -378,7 +377,6 @@ a.prev:hover {
 .i_title {
 	padding-top: 29px;
 	text-transform: none;
-	font: bold 30px/48px 'Raleway', sans-serif;
 	margin-bottom: 4px;
 }
 
@@ -399,9 +397,9 @@ a.prev:hover {
 	height: 150px;
 	text-align: center;
 	margin-top:30px;
-   -moz-box-shadow:    4px 2px 5px 1px #666;
-   -webkit-box-shadow: 4px 2px 5px 1px #666;
-    box-shadow:         4px 2px 5px 1px #666;
+   -moz-box-shadow:    2px 2px 2px 12px #666;
+   -webkit-box-shadow: 2px 2px 2px 12px #666;
+    box-shadow:         1px 2px 2px 2px #666;
 	}
 	
 .thumb {
@@ -457,7 +455,6 @@ a.prev:hover {
 	color: #3d3d3d;
 	margin-bottom: 18px;
 	padding-top: 64px;
-		font: 20px/30px 'Raleway', sans-serif;
 
 }
 
@@ -475,7 +472,6 @@ a.prev:hover {
 .block1 .b1_title {
 	padding-top: 14px;
 	color: #c6c6c6;
-	font: 32px/35px "Trebuchet MS", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
@@ -590,8 +586,7 @@ a.gal {
 /**Footer**/
 footer {
 	display: block;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #848484;
 }
 
@@ -772,8 +767,8 @@ a.top:hover {
 }
 
 .footer_text {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
 	text-align:center;
 }
 

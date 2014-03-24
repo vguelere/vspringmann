@@ -6,5 +6,5 @@ a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,c
 	padding: 0;
 	border: 0;
 	outline: 0;
-	vertical-align: middle;
+	vertical-align: auto;
 }ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}input[type=text], textarea{ outline:none;border-radius:0;}
