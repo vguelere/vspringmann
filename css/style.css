@@ -25,12 +25,6 @@ body {
 	background: #FFF;
 }
 
-.shadow {
-  -moz-box-shadow:    4px 2px 5px 1px #666;
-  -webkit-box-shadow: 4px 2px 5px 1px #666;
-  box-shadow:         4px 2px 5px 1px #666;
-}
-
 address {
 	font-style: normal;
 }
@@ -319,10 +313,9 @@ header h1 a img {
 
 .title {
 	text-transform: uppercase;
-	font: 36px/36px 'Raleway', sans-serif;
+	font: 20px/20px 'Raleway', sans-serif;
 	color: #403f3f;
-	padding-top: 52px;
-	margin-bottom: 27px;
+	padding-top: 10px;
 }
 
 #carousel1 {
@@ -406,6 +399,9 @@ a.prev:hover {
 	height: 150px;
 	text-align: center;
 	margin-top:30px;
+   -moz-box-shadow:    4px 2px 5px 1px #666;
+   -webkit-box-shadow: 4px 2px 5px 1px #666;
+    box-shadow:         4px 2px 5px 1px #666;
 	}
 	
 .thumb {
