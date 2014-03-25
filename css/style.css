@@ -108,13 +108,10 @@ ul.list {
 li{
 	font-size: 18px;
 	margin-left: 10px;
-	line-height: 22px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	}
 
 /****Links****/
-
-
 
 a {
 	text-decoration: none;
@@ -227,6 +224,7 @@ a.link1:hover {
 	float: none !important;
 	clear: both;
 }
+		
 
 .news {
 	overflow: hidden;
@@ -419,6 +417,15 @@ a.prev:hover {
 	width: 25px;
 	height: 25px; 
 	margin-right: 5px;
+	}
+	
+.thumb2 {
+	background-color: black;
+	float:left;
+	width: 25px;
+	height: 25px; 
+	margin-right: 5px;
+	margin-top: 5px;
 	}
 
 
