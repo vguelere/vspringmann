@@ -2,11 +2,6 @@
 @import url(//fonts.googleapis.com/css?family=Kreon:400);
 @import url(//fonts.googleapis.com/css?family=Kreon:700);
 
-@font-face {
-    font-family: "myfont";
-    src: url("fonts/kreon.woff") format('woff');
-}
-
 
 .menu_block  {
 	z-index: 999;
@@ -45,7 +40,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	position: relative;
 	font-size: 16px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: #000;
+	color: #fff;
 	line-height: 20px;
 	text-align: center;
 	z-index: 999;
@@ -65,7 +60,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 .sf-menu>li.current>a, .sf-menu>li.sfHover>a, .sf-menu>li>a:hover {
-	color: #2cc582;
+	color: #0FF;
 }
 
 .sf-menu>li>a.sf-with-ul:after {
