@@ -35,7 +35,7 @@ body {
 	font: 14px/20px Verdana, Geneva, sans-serif;
 	position: relative;
 	min-width: 960px;
-	background: #FFF;
+	background: #fff;
 }
 
 hr 
@@ -73,9 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
 	font-size: 30px;
-	padding-top: 49px;
 	line-height: 36px;
-	color: #6ccba6;
+	color: #000;
 }
 
 
@@ -278,7 +277,7 @@ a.link1:hover {
 
 header {
 	display: block;
-	background-image:url(../images/bgdark.png);
+	background-color: #A7BAC2;
 	padding: 20px 0 10px;
 }
 
