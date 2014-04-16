@@ -277,7 +277,7 @@ a.link1:hover {
 
 header {
 	display: block;
-	background-color: #535353;
+	background-image:url(../images/bgnoise.png);
 	padding: 20px 0 10px;
 }
 

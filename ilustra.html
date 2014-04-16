@@ -10,13 +10,13 @@
      <link rel="stylesheet" href="css/touchTouch.css">
      <script src="js/jquery.js"></script>
      <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/jquery-1.10.2.js"></script>
      <script src="js/script.js"></script> 
      <script src="js/superfish.js"></script>
      <script src="js/touchTouch.jquery.js"></script>
      <script src="js/jquery.equalheights.js"></script>
      <script src="js/jquery.mobilemenu.js"></script>
      <script src="js/jquery.easing.1.3.js"></script>
-
      <script>
 
 
@@ -66,6 +66,12 @@
   <script type="text/javascript" src="../source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
   <script type="text/javascript">
+      $(document).ready(function() {
+        $("#smallphoto").click(function () {
+            $("#bigphoto").attr("src", this.src);
+        });
+    });
+
     $(document).ready(function() {
       /*
        *  Simple image gallery. Uses default settings
@@ -240,6 +246,8 @@
 
 
     });
+	
+	
   </script>
   <style type="text/css">
     .fancybox-custom .fancybox-skin {
@@ -285,22 +293,35 @@
 	<div class="clear"></div>
     <div class="clear"></div>
   
-      <div style=" width: 720px; height: 100%; float:left;">
-      	<iframe src="genio.html" name="iframe2" scrolling="no" width="100%" height="100%"></iframe>
+
+  
+	<!-- IMAGEM A SER CARREGADA -->  
+    <div class="img">
+        <a>
+            <img id="bigphoto" src="images/ilustras/roar.jpg" style="float:left; max-width:100%; border-style:dashed;"/>
+        </a>    
+    </div> 
+    
+
+      
+      <div style="float:left;  width: 30px; background-color:#0C3;">
+      <img src="images/white-shadow.png">
       </div>
       
-      <div style=" width: 220px; height: 500px; float:right;">
+      <div style=" width: 220px; height: 500px; float:right; background-color:#999;">
       <img src="images/tit_pt_portfolio2.jpg">
-<ul>              
+	<ul>              
         <li><a href="ilustra.html" style="font-family: Verdana, Geneva, sans-serif; font-size: 13px;">- Ilustrações</a></li>
               <li><a href="logos.html" style="font-family: Verdana, Geneva, sans-serif; font-size: 13px;" >- Logos</a></li>
               <li><a href="comerciais.html" style="font-family: Verdana, Geneva, sans-serif; font-size: 13px;">- Advertising</a></li>
         </ul>
         <p>&nbsp;</p>
-<br>
+	<br>
           
-    <div style="width: 180px; height: 200px; margin-left:10px;" scrolling="no">
+    <div style="width: 180px; height: 200px; margin-left:10px; background-color:#093;" scrolling="no">
     
+    
+    	<!-- Botões da Galeria -->
         <div class="thumb">
         <a href="genio.html" target="iframe2">
         <img src="images/ilustras/thumb-genio.jpg" class="des">
@@ -401,12 +422,20 @@
         <img src="images/sketch/thumb-musicman.jpg" class="des">
         </a></div>
         
+        <div >
+    <a style="width: 100px; height: 100px;">
+        <img id="smallphoto" widht="100px" height="100px" src="images/20130903-email-sonhosdeconsumo.jpg"/>
+    </a>
+</div>
+
+
+
         
     </div>
       </div>
       
       
-      <div style="float:left; width: 20px;"><img src="images/white-shadow.png"></div>
+
   
 
     <!---Clínica Geral ---><!--- Implantes ---><!--- Próteses---><!--- Restaurações Estéticas---><!---Clínica Geral ---><!--- Implantes ---><!--- Próteses---><!--- Restaurações Estéticas---><!---Clínica Geral ---><!--- Implantes ---></a> 
