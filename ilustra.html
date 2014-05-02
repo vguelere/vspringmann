@@ -10,13 +10,17 @@
      <link rel="stylesheet" href="css/touchTouch.css">
      <script src="js/jquery.js"></script>
      <script src="js/jquery-migrate-1.1.1.js"></script>
-     <script src="js/jquery-1.10.2.js"></script>
      <script src="js/script.js"></script> 
      <script src="js/superfish.js"></script>
      <script src="js/touchTouch.jquery.js"></script>
      <script src="js/jquery.equalheights.js"></script>
      <script src="js/jquery.mobilemenu.js"></script>
      <script src="js/jquery.easing.1.3.js"></script>
+
+
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+
      <script>
 
 
@@ -66,12 +70,6 @@
   <script type="text/javascript" src="../source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
   <script type="text/javascript">
-      $(document).ready(function() {
-        $("#smallphoto").click(function () {
-            $("#bigphoto").attr("src", this.src);
-        });
-    });
-
     $(document).ready(function() {
       /*
        *  Simple image gallery. Uses default settings
@@ -246,8 +244,6 @@
 
 
     });
-	
-	
   </script>
   <style type="text/css">
     .fancybox-custom .fancybox-skin {
@@ -290,158 +286,291 @@
     <div class="clear"></div>
     <div class="serv">
   
-	<div class="clear"></div>
-    <div class="clear"></div>
-  
+	
 
-  
-	<!-- IMAGEM A SER CARREGADA -->  
-    <div class="img">
-        <a>
-            <img id="bigphoto" src="images/ilustras/roar.jpg" style="float:left; max-width:100%; border-style:dashed;"/>
-        </a>    
-    </div> 
-    
 
-      
-      <div style="float:left;  width: 30px; background-color:#0C3;">
-      <img src="images/white-shadow.png">
-      </div>
-      
-      <div style=" width: 220px; height: 500px; float:right; background-color:#999;">
-      <img src="images/tit_pt_portfolio2.jpg">
-	<ul>              
-        <li><a href="ilustra.html" style="font-family: Verdana, Geneva, sans-serif; font-size: 13px;">- Ilustrações</a></li>
-              <li><a href="logos.html" style="font-family: Verdana, Geneva, sans-serif; font-size: 13px;" >- Logos</a></li>
-              <li><a href="comerciais.html" style="font-family: Verdana, Geneva, sans-serif; font-size: 13px;">- Advertising</a></li>
-        </ul>
-        <p>&nbsp;</p>
-	<br>
-          
-    <div style="width: 180px; height: 200px; margin-left:10px; background-color:#093;" scrolling="no">
-    
-    
-    	<!-- Botões da Galeria -->
-        <div class="thumb">
-        <a href="genio.html" target="iframe2">
-        <img src="images/ilustras/thumb-genio.jpg" class="des">
-        </a></div>
-            
-        <div class="thumb">
-        <a href="roar.html" target="iframe2">
-        <img src="images/ilustras/thumb-roar.jpg" class="des">
-        </a></div>
-        
-       
-        <div class="thumb">
-        <a href="nemo.html" target="iframe2">
-        <img src="images/ilustras/thumb-nemo.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb">
-        <a href="concrete.html" target="iframe2">
-        <img src="images/ilustras/thumb-concrete.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb">
-        <a href="shape-verde.html" target="iframe2">
-        <img src="images/ilustras/thumb-shape-verde.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb">
-        <a href="shape-nuvem.html" target="iframe2">
-        <img src="images/ilustras/thumb-shape-nuvens.jpg" class="des">
-        </a></div>
-        <br>
-        <div class="thumb2">
-        <a href="guitarra-onda.html" target="iframe2">
-        <img src="images/ilustras/thumb-guitarra.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb2">
-        <a href="vodoo.html" target="iframe2">
-        <img src="images/ilustras/thumb-vodoo.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb2">
-        <a href="sao-rafael.html" target="iframe2">
-        <img src="images/ilustras/thumb-sao_raphael.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb2">
-        <a href="sao-miguel.html" target="iframe2">
-        <img src="images/ilustras/thumb-sao_miguel.jpg" class="des">
-        </a></div>
-        
-                
-        <div class="thumb2">
-        <a href="planet-pizza.html" target="iframe2">
-        <img src="images/ilustras/thumb-planet-mascote.jpg" class="des">
-        </a></div>
-        
-    
-        
-        <p><br>
-        
-       <h1>&nbsp;</h1>
-       <h1>Sketches</h1>
-      
-        
-        <div class="thumb">
-        <a href="sketch-1.html" target="iframe2">
-        <img src="images/sketch/thumb-alice.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb">
-        <a href="sketch-2.html" target="iframe2">
-        <img src="images/sketch/thumb-carpa.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb">
-        <a href="sketch-3.html" target="iframe2">
-        <img src="images/sketch/thumb-dino.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb">
-        <a href="sketch-4.html" target="iframe2">
-        <img src="images/sketch/thumb-fish.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb">
-        <a href="sketch-5.html" target="iframe2">
-        <img src="images/sketch/thumb-gril-graffiti.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb">
-        <a href="sketch-6.html" target="iframe2">
-        <img src="images/sketch/thumb-ironman.jpg" class="des">
-        </a></div>
-        
-        <div class="thumb2">
-        <a href="sketch-7.html" target="iframe2">
-        <img src="images/sketch/thumb-musicman.jpg" class="des">
-        </a></div>
-        
-        <div >
-    <a style="width: 100px; height: 100px;">
-        <img id="smallphoto" widht="100px" height="100px" src="images/20130903-email-sonhosdeconsumo.jpg"/>
-    </a>
+
+
+<!-- Area 1 -->
+
+<div class="clear"></div>
+<a class="example-image-link" href="http://www.facens.br/blog/wp-content/uploads/2012/01/tv_facens.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+    <img src="http://www.facens.br/blog/wp-content/uploads/2012/01/tv_facens.jpg" width="100%" height="200"><br>&nbsp;</a><br>
+
+<div class="image-set" style="width: 470px; float: left;">
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/genio.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/genio.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/roar.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/roar.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/nemo.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/nemo.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/concrete.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/concrete.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/shape-verde.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/shape-verde.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/shape-nuvens.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/shape-nuvens.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/guitarra.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/guitarra.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/vodoo.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/vodoo.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/sao_raphael.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/sao_raphael.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/sao_miguel.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/sao_miguel.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/planet-mascote.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/planet-mascote.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/alice.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/alice.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/carpa.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/carpa.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/dino.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/dino.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/fish.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/fish.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/gril-graffiti.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/gril-graffiti.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/ironman.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/ironman.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/musicman.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/musicman.jpg"></a>
+
+
 </div>
 
-
-
-        
-    </div>
-      </div>
-      
-      
+<div class="image-set" style="width: 470px; float: right;">
+Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.<br>&nbsp;<br>
+Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. 
+</div>
 
   
 
-    <!---Clínica Geral ---><!--- Implantes ---><!--- Próteses---><!--- Restaurações Estéticas---><!---Clínica Geral ---><!--- Implantes ---><!--- Próteses---><!--- Restaurações Estéticas---><!---Clínica Geral ---><!--- Implantes ---></a> 
-    <!--- Próteses---><!--- Restaurações Estéticas---><!--- Cirurgias ---><!--- Tratamento de Canal ---><!--- Galeria ---></div>
+
+<!-- Area 2 -->
+
+<div class="clear"></div>
+<a class="example-image-link" href="http://www.aesmp.org.br/img/gerenciador/20140227143752banner%20abstrato5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+    <img src="http://www.aesmp.org.br/img/gerenciador/20140227143752banner%20abstrato5.jpg" width="100%" height="200"><br>&nbsp;</a><br>
+
+<div class="image-set" style="width: 470px; float: left;">
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/genio.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/genio.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/roar.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/roar.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/nemo.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/nemo.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/concrete.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/concrete.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/shape-verde.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/shape-verde.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/shape-nuvens.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/shape-nuvens.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/guitarra.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/guitarra.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/vodoo.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/vodoo.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/sao_raphael.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/sao_raphael.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/sao_miguel.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/sao_miguel.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/planet-mascote.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/planet-mascote.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/alice.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/alice.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/carpa.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/carpa.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/dino.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/dino.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/fish.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/fish.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/gril-graffiti.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/gril-graffiti.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/ironman.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/ironman.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/musicman.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/musicman.jpg"></a>
+
+
 </div>
-<div class="hor"></div>
+
+<div class="image-set" style="width: 470px; float: right;">
+Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. 
+</div>
+
+  
+
+
+<!-- Area 3 -->
+
+<div class="clear"></div>
+<a class="example-image-link" href="http://www.fazforte.com.br/img/banner-caixadagua-corinthians.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+    <img src="http://www.fazforte.com.br/img/banner-caixadagua-corinthians.jpg" width="100%" height="200"><br>&nbsp;</a><br>
+
+<div class="image-set" style="width: 470px; float: left;">
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/genio.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/genio.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/roar.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/roar.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/nemo.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/nemo.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/concrete.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/concrete.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/shape-verde.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/shape-verde.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/shape-nuvens.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/shape-nuvens.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/guitarra.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/guitarra.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/vodoo.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/vodoo.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/sao_raphael.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/sao_raphael.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/sao_miguel.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/sao_miguel.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/ilustras/planet-mascote.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/ilustras/planet-mascote.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/alice.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/alice.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/carpa.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/carpa.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/dino.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/dino.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/fish.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/fish.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/gril-graffiti.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/gril-graffiti.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/ironman.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/ironman.jpg"></a>
+
+<a style="display: block;" class="example-image-link" 
+  href="images/sketch/musicman.jpg" data-lightbox="example-set" 
+  data-title="Or press the right arrow on your keyboard."><img style="float: right; list-style-type: none; display: inline; height: 70px; border: solid 3px #1B1B1B; margin: 2px;" src="images/sketch/musicman.jpg"></a>
+
+
+</div>
+
+<div class="image-set" style="width: 470px; float: right;">
+Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="clear"></div>
 <!--==============================footer=================================-->
 <footer>   
 <div class="f_top"></div>

@@ -12,6 +12,7 @@
 	overflow:hidden;
 	width: 207px;
 	margin-left: 25px;
+	margin-top: 0px;
 	height: 150px;
 	background:#111 url(../images/progress.gif) no-repeat center center;
 	border:1px solid #fff;
