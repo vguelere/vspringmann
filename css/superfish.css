@@ -38,9 +38,10 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 .sf-menu>li>a{
 	position: relative;
-	font-size: 16px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: #fff;
+	font-size: 14px;
+	font-family: "Lucida Console", Monaco, monospace;
+	letter-spacing: 3px;
+	color: #FFF;
 	line-height: 20px;
 	text-align: center;
 	z-index: 999;
@@ -60,7 +61,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 .sf-menu>li.current>a, .sf-menu>li.sfHover>a, .sf-menu>li>a:hover {
-	color: #0FF;
+	color: #F00;
 }
 
 .sf-menu>li>a.sf-with-ul:after {
@@ -104,7 +105,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 /*================================>> 2 Level <<========================================*/
 .sf-menu li ul,.sf-menu li.sfHover>ul{
 	top: 45px;
-	width: 97px;
+	width: 150px;
 	left: 50%;
 	margin-left: -48px;
 	background: #363636;
@@ -170,9 +171,9 @@ nav{ position:relative;padding: 0px 0 0 0;}
 /*================================>> 3 Level <<========================================*/
 .sf-menu li.sfHover li.sfHover ul{
 	top: -6px;
-	left: 127px;
+	left: 180px;
 	width: 87px;
-	background-color: #64c29e;
+	background-color: #CCC;
 	padding-top: 9px;
 	padding-bottom: 11px;
 

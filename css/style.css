@@ -277,8 +277,9 @@ a.link1:hover {
 
 header {
 	display: block;
-	background-image:url(../images/bgnoise.png);
+	background-image:url(../images/topo_back.png);
 	padding: 20px 0 10px;
+	height: 80px;
 }
 
 header h1 {
