@@ -278,8 +278,8 @@ a.link1:hover {
 header {
 	display: block;
 	background-image:url(../images/topo_back.png);
+	background-color: #cecece;
 	padding: 20px 0 10px;
-	background-position: -80px;
 	height: 80px;
 }
 
@@ -604,7 +604,7 @@ a.gal {
 footer {
 	display: block;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #848484;
+	color: #cecece;
 }
 
 footer .hor {
@@ -729,10 +729,10 @@ transition: 0s ease;
 	width: 35px;
 	height: 35px;
 	content: '';
-	top: -45px;
+	top: -40px;
 	background: url(../images/socials.png) 0 0 no-repeat;
 	position: absolute;
-	left: 50%;
+	left: 45%;
 	margin-left: -17px;
 }
 

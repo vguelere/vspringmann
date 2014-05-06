@@ -173,7 +173,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	top: -6px;
 	left: 180px;
 	width: 87px;
-	background-color: #CCC;
+	background-color: #FFF;
 	padding-top: 9px;
 	padding-bottom: 11px;
 
@@ -190,7 +190,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 }
 
 .sf-menu li.sfHover li.sfHover ul a {
-	color: #fff;
+	color: #000;
 }
 
 
