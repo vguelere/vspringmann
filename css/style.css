@@ -279,6 +279,7 @@ header {
 	display: block;
 	background-image:url(../images/topo_back.png);
 	padding: 20px 0 10px;
+	background-position: -80px;
 	height: 80px;
 }
 
