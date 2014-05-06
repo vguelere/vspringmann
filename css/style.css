@@ -377,7 +377,7 @@ a.prev:hover {
 	padding-right: 20px;
 	padding-bottom: 32px;
 	padding-left: 198px;
-	background: url(../images/icon.png) 23px 19px no-repeat #f67c78;
+	background: url(../images/skull_icon.png) 23px 19px no-repeat #f67c78;
 	text-transform: uppercase;
 	font: 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
@@ -514,7 +514,7 @@ a.prev:hover {
 }
 
 .serv .clear {
-	height: 39px;
+	height: 20px;
 }
 
 a.gal img {
