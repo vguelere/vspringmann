@@ -61,7 +61,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 .sf-menu>li.current>a, .sf-menu>li.sfHover>a, .sf-menu>li>a:hover {
-	color: #F00;
+	color: #5db694;
 }
 
 .sf-menu>li>a.sf-with-ul:after {
@@ -173,7 +173,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	top: -6px;
 	left: 180px;
 	width: 87px;
-	background-color: #FFF;
+	background-color: #5db694;
 	padding-top: 9px;
 	padding-bottom: 11px;
 
@@ -195,7 +195,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 .sf-menu li.sfHover li.sfHover ul a:hover {
-	color: #F00;
+	color: #FFF;
 }
 
 
