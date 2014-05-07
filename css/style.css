@@ -12,6 +12,13 @@
 @import url(//fonts.googleapis.com/css?family=Kreon:400);
 @import url(//fonts.googleapis.com/css?family=Kreon:700);
 
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: local('scarface'), url('../fonts/roboto-regular-webfont.ttf') format('truetype');
+}
+
 html {
 	width: 100%;
 }
@@ -277,10 +284,11 @@ a.link1:hover {
 
 header {
 	display: block;
-	background-image:url(../images/topo_back.png);
-	background-color: #cecece;
+	background-image:url(../images/topo_back.png);	
+	background-color: #151615;
 	padding: 20px 0 10px;
 	height: 80px;
+	
 }
 
 header h1 {
@@ -604,7 +612,7 @@ a.gal {
 footer {
 	display: block;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #848484;
+	color: #151615;
 }
 
 footer .hor {
